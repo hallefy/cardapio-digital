@@ -1,0 +1,7 @@
+ALTER TABLE `ws_empresa`
+	ADD COLUMN `cor_topo` VARCHAR(250) NOT NULL,
+	ADD COLUMN `cor_loading` VARCHAR(250) NOT NULL,
+	ADD COLUMN `cor_titulo_produtos` VARCHAR(250) NOT NULL;
+
+ALTER TABLE `ws_itens`
+	ADD COLUMN `posicao` int(11) NOT NULL;

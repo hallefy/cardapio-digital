@@ -1,0 +1,230 @@
+[11-Mar-2021 15:30:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Read' not found in /home4/paran961/public_html/atualizacaonova/_app/Config.inc.php:95
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(25): require()
+#1 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(34): exeNotify()
+#2 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/_app/Config.inc.php on line 95
+[11-Mar-2021 15:41:45 America/Fortaleza] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[11-Mar-2021 16:11:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:25
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(55): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 25
+[11-Mar-2021 18:17:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[11-Mar-2021 18:21:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php:23
+Stack trace:
+#0 /home4/paran961/public_html/atualizacaonova/includes/mnotify.php(54): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/atualizacaonova/includes/mnotify.php on line 23
+[13-Mar-2021 16:14:13 America/Fortaleza] {"message":"Oops! Something went wrong...","error":"internal_server_error","status":500,"cause":[]}
+[13-Mar-2021 16:14:13 America/Fortaleza] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[13-Mar-2021 16:15:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:16:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:16:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:16:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:16:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:16:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(137): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:18:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:35
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(142): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 35
+[13-Mar-2021 16:19:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:19:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:19:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:20:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:20:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:20:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:21:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 16:21:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/paran961/public_html/update_categorias/includes/mnotify.php:41
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/includes/mnotify.php(143): exeNotify()
+#1 {main}
+  thrown in /home4/paran961/public_html/update_categorias/includes/mnotify.php on line 41
+[13-Mar-2021 17:16:14 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Please initialize SDK first in /home4/paran961/public_html/update_categorias/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:38
+Stack trace:
+#0 /home4/paran961/public_html/update_categorias/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home4/paran961/public_html/update_categorias/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home4/paran961/public_html/update_categorias/includes/mnotify.php(22): MercadoPago\Entity::find_by_id('13974119398')
+#3 /home4/paran961/public_html/update_categorias/includes/mnotify.php(132): exeNotify()
+#4 {main}
+  thrown in /home4/paran961/public_html/update_categorias/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 38
+[15-Mar-2021 21:17:49 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[15-Mar-2021 21:17:51 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 08:02:42 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 08:06:46 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 11:57:07 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 11:57:30 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 11:57:42 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 11:57:46 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 11:59:33 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 12:00:14 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 12:00:15 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 12:00:35 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 12:00:35 America/Fortaleza] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[16-Mar-2021 12:00:46 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 12:00:46 America/Fortaleza] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[16-Mar-2021 13:17:47 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:17:50 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:17:57 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:17:58 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:18:14 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:18:15 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:18:15 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:18:19 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[16-Mar-2021 13:18:23 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/update_categorias/_app/Config.inc.php on line 30
+[07-Apr-2021 14:12:58 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:09 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:09 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:23 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:25 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:33 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:13:38 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:18 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:25 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:25 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:40 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:45 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:49 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:50 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:17:52 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:01 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:02 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:19 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:33 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:34 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:35 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:41 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:47 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:49 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:23:55 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:24:19 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:24:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:24:28 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:24:37 America/New_York] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[07-Apr-2021 14:26:49 America/New_York] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
+[08-Apr-2021 14:22:12 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 14:22:12 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 14:25:08 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 14:25:08 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:40:09 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:40:09 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:42:33 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:42:33 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:45:22 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:45:22 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:50:08 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:50:08 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:55:30 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 15:55:30 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:07:26 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:07:26 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:15:19 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:15:19 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:17:04 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:17:04 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:33:39 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:33:39 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:44:00 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[08-Apr-2021 16:44:00 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:44:52 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:44:52 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:46:42 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:46:42 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:59:05 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 14:59:05 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 15:15:25 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 15:15:25 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 15:52:41 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 15:52:41 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 16:06:25 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 16:06:25 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 16:06:29 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[09-Apr-2021 16:06:29 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 01:13:52 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 01:13:52 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 01:23:44 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 01:23:44 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 02:10:09 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
+[12-Apr-2021 02:10:09 America/Sao_Paulo] {"message":"unknown_error","error":"","status":400,"cause":[]}
