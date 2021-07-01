@@ -4,9 +4,9 @@ require 'funcoes.php';
 
 // CONFIGRAÇÕES DO BANCO DE DADOS ####################
 define('HOST', 'localhost');
-define('USER', 'meumenuzap_admin');
-define('PASS', 'Aq5647382910@');
-define('DBSA', 'meumenuzap_admin');
+define('USER', 'u376999505_meukardaio');
+define('PASS', 'g>B76Ye&J#ZlSwih$9V');
+define('DBSA', 'u376999505_kardapio');
 
 define("EMAIL_MSG","contato@meukardapio.com"); //Email para recebimento e envio de mensagens
 define("PHONE_NUMBER","62994297820"); //Telefone para chamarem no whats
