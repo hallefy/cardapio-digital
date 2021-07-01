@@ -394,8 +394,8 @@ endif;
 </div>
 <div class="col-md-6">
   <div class="form-group">
-   <label for="user_password2">Seu CPF ou CNPJ</label>
-   <input type="text" required autocomplete="off"  class="data-mask-for-cpf-cnpj" placeholder="000.000.000-00" name="user_cpf"  id="user_cpf" />
+   <label for="user_password2">Seu CPF</label>
+   <input type="text" required autocomplete="off"  class="form-control cpf" placeholder="000.000.000-00" name="user_cpf"  id="user_cpf" />
  </div>
 </div>
 </div><!-- End row  -->
@@ -620,16 +620,6 @@ endif;
 
 
 <script type="text/javascript">
-$(document).on('keydown', '[data-mask-for-cpf-cnpj]', function (e) {
-  var digit = e.key.replace(/\D/g, '');
-
-  var value = $(this).val().replace(/\D/g, '');
-
-  var size = value.concat(digit).length;
-
-  $(this).mask((size <= 11) ? '000.000.000-00' : '00.000.000/0000-00');
-});
-
   $(document).ready(function(){
     $('#verificarDisponibilidadeLink').click(function(){
       var linkuser = $('#nome_empresa_link').val();
