@@ -1,0 +1,12 @@
+[09-Feb-2021 00:52:51 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Feb-2021 00:52:51 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[09-Feb-2021 13:59:38 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Feb-2021 13:59:38 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[09-Feb-2021 15:31:21 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Feb-2021 15:31:21 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[11-Feb-2021 13:29:53 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Feb-2021 13:29:53 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[11-Feb-2021 20:51:43 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home1/deli2411/public_html/_app/Config.inc.php on line 27
+[07-Mar-2021 00:11:03 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/atualizacaonova/_app/Config.inc.php on line 30
+[08-Mar-2021 23:09:30 America/Fortaleza] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/paran961/public_html/atualizacaonova/_app/Config.inc.php on line 30
+[07-Apr-2021 14:14:34 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/meumenuzap/meumenuzap.com/_app/Config.inc.php on line 30
