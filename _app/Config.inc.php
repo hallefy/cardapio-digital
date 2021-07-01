@@ -8,8 +8,8 @@ define('USER', 'meumenuzap_admin');
 define('PASS', 'Aq5647382910@');
 define('DBSA', 'meumenuzap_admin');
 
-define("EMAIL_MSG","contato@meumenuzap.com"); //Email para recebimento e envio de mensagens
-define("PHONE_NUMBER","31975323235"); //Telefone para chamarem no whats
+define("EMAIL_MSG","contato@meukardapio.com"); //Email para recebimento e envio de mensagens
+define("PHONE_NUMBER","62994297820"); //Telefone para chamarem no whats
 
 
 // DEFINE IDENTIDADE DO SITE ################
