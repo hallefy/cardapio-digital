@@ -695,14 +695,14 @@ endif;
   <br />
   <h2 class="nomargin_top" style="padding-top:0">Como funciona</h2>
   <p>
-    Veja como e simples fazer seu pedido.
+    Veja como é simples fazer seu pedido.
   </p>
 </div>
 <div class="row">
   <div class="col-md-3">
     <div class="box_home" id="one">
       <span>1</span>
-      <h3>Pesquisa por endereço</h3>
+      <h3>Pesquise por  um endereço</h3>
       <p>
         Encontre todos os restaurantes disponíveis em sua região.
       </p>
@@ -728,9 +728,9 @@ endif;
   <div class="col-md-3">
     <div class="box_home" id="four">
       <span>4</span>
-      <h3>E por fim, Delivery</h3>
+      <h3>E por fim, Delivery!</h3>
       <p>
-        Envie seu pedido para o restaurante via whatsapp
+        Envie seu pedido para o restaurante via whatsapp!
       </p>
     </div>
   </div>
@@ -764,9 +764,9 @@ endif;
 
 <div class="high_light">
   <div class="container">
-    <h3>Dono de <strong>restaurante</strong> ?</h3>
-    <p>Crie agora seu cardápio online e comece a divulgar hoje mesmo. TESTE GRATUITO DE 7 DIAS!</p>
-    <a href="<?=$site;?>cadastro" target="_blank">CADASTRAR RESTAURANTE</a>
+    <h3><strong>Dono de restaurante</strong> ?</h3>
+    <p>Crie agora seu cardápio online e aumente suas vendas! <strong>TESTE POR 7 DIAS!</strong></p>
+    <a href="<?=$site;?>cadastro" target="_blank">CADASTRAR MEU RESTAURANTE</a>
   </div><!-- End container -->
 </div><!-- End hight_light -->
 
