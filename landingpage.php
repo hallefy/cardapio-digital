@@ -29,7 +29,7 @@ endif;
     
     <meta charset="utf-8">
   
-  <title><?=$texto['titulo_site_landing'];?></title>
+  <title><?=$texto['titulo_site_landing'];?>Meu Kardapio</title>
   <meta name="robots" content="index, fallow" />
   <link rel="canonical" href="<?=$site;?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">    
@@ -106,7 +106,7 @@ endif;
             </div>
             <a href="#" class="open_close" id="close_in"><i class="icon_close"></i></a>
             <ul>
-              <li><a href="<?=$site;?>Demo">DEMONSTRAÇÃO</a></li>
+              <li><a href="<?=$site;?>Demo">VEJA UMA DEMO</a></li>
               <li><a href="<?=$site;?>cadastro">CADASTRAR RESTAURANTE</a></li>
               <li><a href="<?=$site;?>login">LOGIN</a></li>
 
