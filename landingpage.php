@@ -18,13 +18,13 @@ endif;
 <html lang="pt-br">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEH8LZCE4L"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TDGBGSK5CQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-KEH8LZCE4L');
+  gtag('config', 'G-TDGBGSK5CQ');
 </script>
     
     <meta charset="utf-8">
@@ -69,6 +69,16 @@ endif;
   <script src="<?= $site; ?>css/x0popup-master/dist/x0popup.min.js"></script>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
   <link href="<?= $site; ?>css/color_scheme.css" rel="stylesheet"> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201137956-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-201137956-1');
+</script>
 </head>
 
 <body>
@@ -106,9 +116,9 @@ endif;
             </div>
             <a href="#" class="open_close" id="close_in"><i class="icon_close"></i></a>
             <ul>
-              <li><a href="<?=$site;?>Demo">VEJA UMA DEMO</a></li>
-              <li><a href="<?=$site;?>cadastro">CADASTRAR RESTAURANTE</a></li>
-              <li><a href="<?=$site;?>login">LOGIN</a></li>
+              <li><a href="<?=$site;?>Demo">Ver demo</a></li>
+              <li><a href="<?=$site;?>cadastro">Cadastrar Restaurante</a></li>
+              <li><a href="<?=$site;?>login">Login</a></li>
 
             </ul>
           </div><!-- End main-menu -->
