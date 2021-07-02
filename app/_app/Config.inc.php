@@ -8,15 +8,15 @@ define('USER', 'root');
 define('PASS', 'root');
 define('DBSA', 'delivery');
 
-define("EMAIL_MSG","contato@meumenuzap.com"); //Email para recebimento e envio de mensagens
-define("PHONE_NUMBER","31975323235"); //Telefone para chamarem no whats
+define("EMAIL_MSG","contato@meu-kardapio.com.br"); //Email para recebimento e envio de mensagens
+define("PHONE_NUMBER","62994297820"); //Telefone para chamarem no whats
 
 
 // DEFINE IDENTIDADE DO SITE ################
 
 
 // DEFINE A BASE DO SITE ####################
-define('HOME', 'https://localhost:4500/cardapio-digital');  // SEMPRE COM A BARRA NA FRENTE ---- ---- ---- ----
+define('HOME', 'https://localhost:4500/cardapio-digital/');  // SEMPRE COM A BARRA NA FRENTE ---- ---- ---- ----
 
 date_default_timezone_set('America/Sao_Paulo');
 

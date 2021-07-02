@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+
+  web:
+    build:
+      dockerfile: ./docker/dockerfilephp
+      context: .
+    ports:
+      - "4500:80"
+    volumes:
+      - ./app:/var/www/html
+
+  db:
+    image: 'mysql:5.7'
+    volumes:
+    - ./.volume/mysql/:/var/lib/mysql
+    - ./app/banco de dados:/docker-entrypoint-initdb.d
+    container_name: mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: delivery
