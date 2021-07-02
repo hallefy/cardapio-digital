@@ -944,7 +944,15 @@ endif;
 			<form data-toggle="validator" action="<?=$site.$Url[0].'/';?>carrinho" method="post">
 				<hr>
 				<div class="row" id="options_2" style="padding-left: 12px;">
-					<?php if(!empty($confirm_delivery) && $confirm_delivery == "true"): ?>
+					<?php
+
+					$parts = parse_url($url);
+					parse_str($parts['query'], $query);
+					$showOptions = true;
+
+					$showOptions = $query['showOptions'];
+
+					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='true' checked="" id="enterega" name="opcao_delivery" 
@@ -957,7 +965,14 @@ endif;
 							</div>
 						</div>
 					<?php endif; ?>
-					<?php if(!empty($confirm_balcao) && $confirm_balcao == "true"): ?>
+					<?php 
+					$parts = parse_url($url);
+					parse_str($parts['query'], $query);
+					$showOptions = true;
+
+					$showOptions = $query['showOptions'];
+
+					if(!empty($confirm_balcao) && $confirm_balcao == "true"  && $showOptions == false): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
@@ -970,7 +985,9 @@ endif;
 							</div>
 						</div>
 					<?php endif; ?>
-					<?php if(!empty($confirm_mesa) && $confirm_mesa == "true"): ?>
+					<?php
+					
+					if(!empty($confirm_mesa) && $confirm_mesa == "true"): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false2' id="mesa" name="opcao_delivery" 
