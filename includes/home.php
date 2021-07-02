@@ -946,8 +946,14 @@ endif;
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
 
-					$showOptions = isset($_GET['showOptions']);
-
+					$showOptions = false;
+					
+					if(empty(isset($_GET['showOptions']))){
+						$showOptions = true;
+					} else {
+						$showOptions = false;
+					};
+					
 					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
@@ -962,9 +968,16 @@ endif;
 						</div>
 					<?php endif; ?>
 					<?php
-					$showOptions = isset($_GET['showOptions']);
 
-					if(!empty($confirm_balcao) && $confirm_balcao == "true"  && $showOptions == false): ?>
+					$showOptions = false;
+					
+					if(empty(isset($_GET['showOptions']))){
+						$showOptions = true;
+					} else {
+						$showOptions = false;
+					};
+
+					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
@@ -1061,7 +1074,7 @@ endif;
 							<tr>
 								<td class="total">
 									<?php $total_do_pedido = $cart->getAttributeTotal('preco') + $totaldeadicionais; ?>
-									Subtotal
+									Subtotal:
 									<span class="pull-right">
 										R$ <b id="v-total-p">
 											<?php
