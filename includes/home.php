@@ -944,17 +944,7 @@ endif;
 			<form data-toggle="validator" action="<?=$site.$Url[0].'/';?>carrinho" method="post">
 				<hr>
 				<div class="row" id="options_2" style="padding-left: 12px;">
-					<?php
-					$url_components = parse_url($_SERVER['REQUEST_URI']);
-										
-					// Use parse_str() function to parse the
-					// string passed via URL
-					parse_str($url_components['query'], $params);
-
-					$showOptions = $params['showOptions'];
-
-					if($showOptions == true)
-						return;
+					<?php					
 					if(!empty($confirm_delivery) && $confirm_delivery == "true"): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
@@ -969,31 +959,19 @@ endif;
 						</div>
 					<?php endif; ?>
 					<?php
-
-					$url_components = parse_url($_SERVER['REQUEST_URI']);
-										
-					// Use parse_str() function to parse the
-					// string passed via URL
-					parse_str($url_components['query'], $params);
-
-					$showOptions = $params['showOptions'];
-
-					if($showOptions == true) {
-						if(!empty($confirm_balcao) && $confirm_balcao == "true") {
-						echo '<div style="width: 100%;">
+					if(!empty($confirm_balcao) && $confirm_balcao == "true"): ?>
+						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
-								<input type="radio" required value="false" id="buscar" name="opcao_delivery" 
+								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
 								required />
 								<label for="buscar">
 									<span style="color:#444;">
-										<p style="font-size: 14px;"><?='+$texto['msg_Buscar_pedido'];'?></p>
+										<p style="font-size: 14px;"><?=$texto['msg_Buscar_pedido'];?></p>
 									</span>
 								</label>
 							</div>
-						</div>';
-						}
-					}
-					?>
+						</div>
+					<?php endif; ?>
 					<?php
 					
 					if(!empty($confirm_mesa) && $confirm_mesa == "true"): ?>
