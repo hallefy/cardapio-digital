@@ -953,9 +953,7 @@ endif;
 
 					$showOptions = $params['showOptions'];
 
-					echo $showOptions;
-
-					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions): ?>
+					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == true): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='true' checked="" id="enterega" name="opcao_delivery" 
@@ -978,9 +976,7 @@ endif;
 
 					$showOptions = $params['showOptions'];
 
-					echo $showOptions;
-
-					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions): ?>
+					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions == true): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
