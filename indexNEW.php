@@ -53,13 +53,13 @@ else:
 	<html lang="pt-br">
 	<head>
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEH8LZCE4L"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TDGBGSK5CQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-KEH8LZCE4L');
+  gtag('config', 'G-TDGBGSK5CQ');
 </script>
 	    
 		<meta charset="utf-8">
@@ -505,6 +505,16 @@ else:
 
 		<!-- MUDAR CORES DO TEMPLATE -->
 		<link href="<?= $site; ?>css/color_scheme.css" rel="stylesheet"> 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201137956-1">
+		</script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-201137956-1');
+		</script>
 	</head>
 
 	<body style="background: #e5ddd5 url(<?= $site; ?>img/body-bg.jpg) repeat center;">
