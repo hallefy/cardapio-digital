@@ -948,7 +948,7 @@ endif;
 
 					$showOptions = true;
 					
-					if(!empty(isset($_GET['showOptions']))){
+					if(!empty($_SERVER[['showOptions'])){
 						$showOptions = false;
 					} else {
 						$showOptions = true;
@@ -971,7 +971,7 @@ endif;
 
 					$showOptions = false;
 					
-					if(empty(isset($_GET['showOptions']))){
+					if(empty($_SERVER['showOptions'])){
 						$showOptions = true;
 					} else {
 						$showOptions = false;
