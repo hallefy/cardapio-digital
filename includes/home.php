@@ -945,16 +945,15 @@ endif;
 				<hr>
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
-
-					$showOptions = true;
+					$url_components = parse_url($_SERVER['REQUEST_URI']);
 					
-					if(!empty($_SERVER[['showOptions'])){
-						$showOptions = false;
-					} else {
-						$showOptions = true;
-					};
+					// Use parse_str() function to parse the
+					// string passed via URL
+					parse_str($url_components['showOptions'], $params);
 
-					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
+					$showOptions = $params;
+		
+					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='true' checked="" id="enterega" name="opcao_delivery" 
@@ -969,15 +968,15 @@ endif;
 					<?php endif; ?>
 					<?php
 
-					$showOptions = false;
-					
-					if(empty($_SERVER['showOptions'])){
-						$showOptions = true;
-					} else {
-						$showOptions = false;
-					};
+					$url_components = parse_url($_SERVER['REQUEST_URI']);
+										
+					// Use parse_str() function to parse the
+					// string passed via URL
+					parse_str($url_components['showOptions'], $params);
 
-					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions == false): ?>
+					$showOptions = $params;
+
+					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
