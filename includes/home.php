@@ -978,11 +978,9 @@ endif;
 
 					$showOptions = $params['showOptions'];
 
-					if($showOptions == true)
-						return;
-
-					if(!empty($confirm_balcao) && $confirm_balcao == "true"): ?>
-						<div style="width: 100%;">
+					if($showOptions == true) {
+						if(!empty($confirm_balcao) && $confirm_balcao == "true") {
+						echo '<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
 								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
 								required />
@@ -992,8 +990,10 @@ endif;
 									</span>
 								</label>
 							</div>
-						</div>
-					<?php endif; ?>
+						</div>';
+						}
+					}
+					?>
 					<?php
 					
 					if(!empty($confirm_mesa) && $confirm_mesa == "true"): ?>
