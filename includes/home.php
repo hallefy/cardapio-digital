@@ -945,17 +945,16 @@ endif;
 				<hr>
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
-					
 					$url_components = parse_url($_SERVER['REQUEST_URI']);
 										
 					// Use parse_str() function to parse the
 					// string passed via URL
-					echo var_dump($url_components);
 					parse_str($url_components['query'], $params);
 
 					$showOptions = $params['showOptions'];
 
-		
+					echo $showOptions;
+
 					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
@@ -975,10 +974,11 @@ endif;
 										
 					// Use parse_str() function to parse the
 					// string passed via URL
-					echo var_dump($url_components);
 					parse_str($url_components['query'], $params);
 
 					$showOptions = $params['showOptions'];
+
+					echo $showOptions;
 
 					if(!empty($confirm_balcao) && $confirm_balcao == "true" && $showOptions): ?>
 						<div style="width: 100%;">
