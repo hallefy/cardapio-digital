@@ -946,7 +946,7 @@ endif;
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
 
-					$showOptions = $_GET['showOptions'];
+					$showOptions = isset($_GET['showOptions']);
 
 					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
@@ -962,7 +962,7 @@ endif;
 						</div>
 					<?php endif; ?>
 					<?php
-					$showOptions = $_GET['showOptions'];
+					$showOptions = isset($_GET['showOptions']);
 
 					if(!empty($confirm_balcao) && $confirm_balcao == "true"  && $showOptions == false): ?>
 						<div style="width: 100%;">
