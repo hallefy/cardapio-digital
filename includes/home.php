@@ -982,11 +982,11 @@ endif;
 						if(!empty($confirm_balcao) && $confirm_balcao == "true") {
 						echo '<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
-								<input type="radio" required value='false' id="buscar" name="opcao_delivery" 
+								<input type="radio" required value="false" id="buscar" name="opcao_delivery" 
 								required />
 								<label for="buscar">
 									<span style="color:#444;">
-										<p style="font-size: 14px;"><?=$texto['msg_Buscar_pedido'];?></p>
+										<p style="font-size: 14px;"><?='+$texto['msg_Buscar_pedido'];'?></p>
 									</span>
 								</label>
 							</div>
