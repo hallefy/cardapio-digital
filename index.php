@@ -541,6 +541,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		<!-- MUDAR CORES DO TEMPLATE -->
 		<link href="<?= $site; ?>css/color_scheme.css" rel="stylesheet"> 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201137956-1">
+		</script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-201137956-1');
+		</script>
 	</head>
 
 	<body style="background: #e5ddd5 url(<?= $site; ?>img/body-bg.jpg) repeat center;">
