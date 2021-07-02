@@ -946,11 +946,7 @@ endif;
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
 
-					$parts = parse_url($url);
-					parse_str($parts['query'], $query);
-					$showOptions = true;
-
-					$showOptions = $query['showOptions'];
+					$showOptions = $_GET['showOptions'];
 
 					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
@@ -965,12 +961,8 @@ endif;
 							</div>
 						</div>
 					<?php endif; ?>
-					<?php 
-					$parts = parse_url($url);
-					parse_str($parts['query'], $query);
-					$showOptions = true;
-
-					$showOptions = $query['showOptions'];
+					<?php
+					$showOptions = $_GET['showOptions'];
 
 					if(!empty($confirm_balcao) && $confirm_balcao == "true"  && $showOptions == false): ?>
 						<div style="width: 100%;">
