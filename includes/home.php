@@ -24,7 +24,7 @@ if(!isset($_SESSION['userlogin'])):
 			const urlParams = new URLSearchParams(window.location.search);
 			const myParam = urlParams.get('mesa');
 
-			document.cookie = "username="+myParam;
+			document.cookie = "mesa="+myParam;
  		});
 	</script>
 	<?php
