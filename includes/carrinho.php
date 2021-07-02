@@ -105,12 +105,12 @@ function tirarAcentos($string){
 											<input type="number" name="mesa" id="mesa" class="form-control numero" maxlength="2" required>
 										</div>
 									</div>
-									<div class="col-lg-6">
+									<!-- <div class="col-lg-6">
 										<div class="form-group">
 											<label class="form-control-label"><span style="color: red;">*</span> <?=$texto['msg_msg_qtdpessoas'];?></label>
 											<input type="number" name="pessoas" id="pessoas" class="form-control numero" maxlength="2" required>
 										</div>
-									</div>
+									</div> -->
 								</div> 
 							<?php endif; ?>
 
