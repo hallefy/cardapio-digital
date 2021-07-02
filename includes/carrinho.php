@@ -115,7 +115,22 @@ function tirarAcentos($string){
 							<?php endif; ?>
 
 							<script>
-							document.getElementById('mesa').value = GetCookie('mesa');
+							document.getElementById('mesa').value = getCookie('mesa');
+
+							function getCookie(cname) {
+							let name = cname + "=";
+							let ca = document.cookie.split(';');
+							for(let i = 0; i < ca.length; i++) {
+								let c = ca[i];
+								while (c.charAt(0) == ' ') {
+								c = c.substring(1);
+								}
+								if (c.indexOf(name) == 0) {
+								return c.substring(name.length, c.length);
+								}
+							}
+							return "";
+							}
 							</script>
 
 							<script type="text/javascript">
