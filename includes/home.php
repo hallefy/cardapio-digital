@@ -946,14 +946,14 @@ endif;
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php
 
-					$showOptions = false;
+					$showOptions = true;
 					
-					if(empty(isset($_GET['showOptions']))){
-						$showOptions = true;
-					} else {
+					if(!empty(isset($_GET['showOptions']))){
 						$showOptions = false;
+					} else {
+						$showOptions = true;
 					};
-					
+
 					if(!empty($confirm_delivery) && $confirm_delivery == "true" && $showOptions == false): ?>
 						<div style="width: 100%;">
 							<div class="radio icheck-midnightblue">					
