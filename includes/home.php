@@ -17,6 +17,16 @@ if(!isset($_SESSION['userlogin'])):
 			}		
 		});
 
+		$.({
+			const urlSearchParams = new URLSearchParams(window.location.search);
+			const params = Object.fromEntries(urlSearchParams.entries());
+
+			const urlParams = new URLSearchParams(window.location.search);
+			const myParam = urlParams.get('mesa');
+
+			document.cookie = "username="+myParam;
+		})
+
 	</script>
 	<?php
 endif;
