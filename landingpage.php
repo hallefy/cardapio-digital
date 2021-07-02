@@ -133,9 +133,10 @@ endif;
 
     <div id="subheader">
 
-    <div>
+    <!-- logo 
+      <div>
       <img src="img/logo.png">
-    </div>
+    </div> -->
 
       <div id="sub_content">
         <font size='5'>Procurando <strong id="js-rotating">Restaurantes,Lanchonetes,Hamburguerias,Pizzarias,Sorveterias,Açaí</strong> ?</font>
