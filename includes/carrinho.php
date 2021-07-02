@@ -102,7 +102,7 @@ function tirarAcentos($string){
 									<div class="col-lg-6">
 										<div class="form-group">
 											<label class="form-control-label"><span style="color: red;">*</span> <?=$texto['msg_msg_Nmesa'];?></label>
-											<input type="number" name="mesa" id="visitor" class="form-control numero" maxlength="2" required>
+											<input type="number" name="mesa" id="mesa" class="form-control numero" maxlength="2" required>
 										</div>
 									</div>
 									<div class="col-lg-6">
@@ -115,7 +115,7 @@ function tirarAcentos($string){
 							<?php endif; ?>
 
 							<script>
-							document.getElementById('visitor').value = GetCookie('VisitorName');
+							document.getElementById('mesa').value = GetCookie('mesa');
 							</script>
 
 							<script type="text/javascript">
