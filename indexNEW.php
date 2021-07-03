@@ -1282,7 +1282,7 @@ $(".input-number").keydown(function (e) {
 </script>
 
 
-
+<!-- 
 <script language="JavaScript">
 
 	window.onload = function() {
@@ -1292,9 +1292,9 @@ $(".input-number").keydown(function (e) {
 		document.addEventListener("keydown", function(e) {
             //document.onkeydown = function(e) {
               // "I" key
-              if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-              	disabledEvent(e);
-              }
+            //   if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+            //   	disabledEvent(e);
+            //   }
               // "J" key
               if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
               	disabledEvent(e);
@@ -1308,9 +1308,9 @@ $(".input-number").keydown(function (e) {
               	disabledEvent(e);
               }
               // "F12" key
-              if (event.keyCode == 123) {
-              	disabledEvent(e);
-              }
+            //   if (event.keyCode == 123) {
+            //   	disabledEvent(e);
+            //   }
           }, false);
 		function disabledEvent(e){
 			if (e.stopPropagation){
@@ -1322,7 +1322,7 @@ $(".input-number").keydown(function (e) {
 			return false;
 		}
 	}; 
-</script>
+</script> -->
 
 <script type="text/javascript">
 	const selected = document.querySelector(".selected");

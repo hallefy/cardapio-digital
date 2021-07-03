@@ -103,8 +103,8 @@ endif;
       <div class="row">
         <div class="col--md-4 col-sm-4 col-xs-4">
           <a href="<?=$site;?>" id="logo">
-            <img src="<?= $site; ?>img/home.png" height="30" width="40" alt="" data-retina="true" class="hidden-xs">
-            <img src="<?= $site; ?>img/home.png" height="30" width="40" alt="" data-retina="true" class="hidden-lg hidden-md hidden-sm">
+            <img src="<?= $site; ?>img/logo2.png" height="30" width="30" alt="" data-retina="true" class="hidden-xs">
+            <img src="<?= $site; ?>img/logo2.png" height="30" width="30" alt="" data-retina="true" class="hidden-lg hidden-md hidden-sm">
           </a>
         </div>
         <nav class="col--md-8 col-sm-8 col-xs-8">
@@ -129,16 +129,14 @@ endif;
   <!-- End Header =============================================== -->
 
   <!-- SubHeader =============================================== -->
-  <section class="parallax-window" id="home" data-parallax="scroll" data-image-src="img/sub_header_cart.jpg" data-natural-width="1400" data-natural-height="350">
+  <section class="parallax-window" id="home" data-parallax="scroll" data-image-src="img/sub_header_cart.jpg" data-natural-width="1300" data-natural-height="350">
 
     <div id="subheader">
-
-    <!-- logo 
-      <div>
-      <img src="img/logo.png">
-    </div> -->
-
-      <div id="sub_content">
+   
+    <div id="sub_content">
+    <div>
+     <img src="img/logo2.png" alt="Meu Kardapio" style="width:120px;height:120px;margin:15px">
+    </div>
         <font size='5'>Procurando <strong id="js-rotating">Restaurantes,Lanchonetes,Hamburguerias,Pizzarias,Sorveterias,Açaí</strong> ?</font>
         <br>
          <font size='3'> Os melhores cardápios estão aqui. Descubra! </font>
@@ -925,7 +923,7 @@ endif;
       }
     });
   </script>
-
+<!-- 
   <script language="JavaScript">
     window.onload = function() {
       document.addEventListener("contextmenu", function(e){
@@ -964,7 +962,7 @@ endif;
         return false;
       }
     };
-  </script>
+  </script> -->
 
   <div id='whatsapp-chat' class='hide'>
     <div class='header-chat'>
