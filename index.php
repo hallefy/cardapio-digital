@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<title><?=(!empty($nome_empresa) ? 'Cardápio | '.$nome_empresa : 'Nome_do_seu_negócio');?></title>
 
 		<!-- Favicons-->
-		<link rel="shortcut icon" href="<?= $site; ?>img/favicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="<?= $site; ?>img/logo2.png" type="image/x-icon">
 		<!-- GOOGLE WEB FONT -->
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
 		
