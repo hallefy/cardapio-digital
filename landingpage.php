@@ -42,7 +42,7 @@ endif;
   <meta name="description" content="<?=$texto['descricao_site_landing'];?>" />
   <meta property="og:description" content="<?=$texto['descricao_site_landing'];?>" />
 
-  <link rel="shortcut icon" href="<?= $site; ?>img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
   <!-- GOOGLE WEB FONT -->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -137,7 +137,7 @@ endif;
     <div>
      <img src="img/logo_branco.png" alt="Meu Kardapio" style="width:160px;height:160px;margin:15px">
     </div>
-    
+
         <font size='5'>Procurando <strong id="js-rotating">Restaurantes,Lanchonetes,Hamburguerias,Pizzarias,Sorveterias,Açaí</strong> ?</font>
         <br>
          <font size='3'> Os melhores cardápios estão aqui. Descubra! </font>
