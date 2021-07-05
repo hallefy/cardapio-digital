@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://meumenuzap.com/sitemap.xml
+Sitemap: https://meu-kardapio.com.br/sitemap.xml

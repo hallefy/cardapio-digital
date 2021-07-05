@@ -42,7 +42,7 @@ endif;
   <meta name="description" content="<?=$texto['descricao_site_landing'];?>" />
   <meta property="og:description" content="<?=$texto['descricao_site_landing'];?>" />
 
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
   <!-- GOOGLE WEB FONT -->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
