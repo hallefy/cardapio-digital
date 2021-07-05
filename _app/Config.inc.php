@@ -8,7 +8,7 @@ define('USER', 'u376999505_meukardaio');
 define('PASS', 'g>B76Ye&J#ZlSwih$9V');
 define('DBSA', 'u376999505_kardapio');
 
-// CONFIGRAÇÕES DO BANCO DE DADOS STAGE#################### teste
+// CONFIGRAÇÕES DO BANCO DE DADOS STAGE####################
 // define('HOST', 'localhost');
 // define('USER', 'root');
 // define('PASS', 'K@rdapio271816');
