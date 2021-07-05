@@ -25,7 +25,7 @@ if(!isset($_SESSION['userlogin'])):
 			const myParam = urlParams.get('mesa');
 
 			document.cookie = "mesa="+myParam;
- 		});
+ 		})
 	</script>
 	<?php
 endif;
