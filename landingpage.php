@@ -137,6 +137,7 @@ endif;
     <div>
      <img src="img/logo_branco.png" alt="Meu Kardapio" style="width:160px;height:160px;margin:15px">
     </div>
+    
         <font size='5'>Procurando <strong id="js-rotating">Restaurantes,Lanchonetes,Hamburguerias,Pizzarias,Sorveterias,Açaí</strong> ?</font>
         <br>
          <font size='3'> Os melhores cardápios estão aqui. Descubra! </font>
