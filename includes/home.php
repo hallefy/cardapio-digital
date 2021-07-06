@@ -870,9 +870,7 @@ endif;
 		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
 		?>
 			<script type="text/javascript">
-				alert("Block carrinho");		
 				document.getElementById("option-carrinho").style.display = "none";
-			
 			</script>
 		<?				
 		}
