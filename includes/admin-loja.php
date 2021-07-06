@@ -155,6 +155,10 @@ $updatebanco = new Update();
 					$inputdadosempresa['confirm_mesa'] = "true";
 				else:
 					$inputdadosempresa['confirm_mesa'] = "false";
+				if(!empty($inputdadosempresa['confirm_just_cardapio'])):
+					$inputdadosempresa['confirm_just_cardapio'] = "true";
+				else:
+					$inputdadosempresa['confirm_just_cardapio'] = "false";
 				endif;	
 
 
@@ -431,6 +435,10 @@ endif;
 		<div class="icheck-material-green">
 			<input <?=(!empty($confirm_mesa) && $confirm_mesa == "true" ? "checked" : "");?> type="checkbox" name="confirm_mesa" value="true" id="confirm_mesa" />
 			<label for="confirm_mesa"><strong>Permitir pedido na mesa</strong></label>
+		</div>
+		<div class="icheck-material-green">
+			<input <?=(!empty($confirm_just_cardapio) && $confirm_just_cardapio == "true" ? "checked" : "");?> type="checkbox" name="confirm_just_cardapio" value="true" id="confirm_just_cardapio" />
+			<label for="confirm_just_cardapio"><strong>Apenas cardapio online</strong></label>
 		</div>
 	</div>
 
