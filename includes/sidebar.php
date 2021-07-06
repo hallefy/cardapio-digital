@@ -67,17 +67,20 @@ $cart = new Cart([
 		$('#sidebarlink').attr("href", linkurl3);
 	});
 </script>
-<div class="theiaStickySidebar">
+
 <?php
 		if(!empty($getuverificacardapio) && $getuverificacardapio == true){	
 		?>
 			<script type="text/javascript">
 			alert('teste 2')
-				document.getElementById("cart_box").style.display = 'none';
+				document.getElementById("theiaCarrinho").style.display = 'none';
 			</script>
 		<?				
 		}
-	?>	
+	?>
+
+
+<div id="theiaCarrinho" class="theiaStickySidebar">	
 	<div id="cart_box" >
 		<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 		<?php
@@ -363,7 +366,7 @@ $cart = new Cart([
 		</div><!-- End cart_box -->
 	</div><!-- End theiaStickySidebar -->
 
-	<?php if(!$cart->isEmpty()):?>
+	<?php if(!$cart->isEmpty() && !$getuverificacardapio):?>
 		<div id="whatsapp"  >
 
 			<a href="#sidebar" title="<?=$texto['msg_seu_pedido'];?>"> <span style="opacity: 0.9;" class="cart-count"><?=($cart->getTotalItem() > 0 ? (int)$cart->getTotalItem() : 0);?></span><i style="opacity: 0.6;font-size:45px;color:#27771b;" class="icon-bag"></i>
