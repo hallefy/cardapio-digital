@@ -69,8 +69,10 @@ $cart = new Cart([
 </script>
 
 <?php
-		if(true){	
+echo $getuverificacardapio;
+		if(!empty($getuverificacardapio) && $getuverificacardapio == false){	
 		?>
+	
 			<div id="theiaCarrinho" class="theiaStickySidebar">	
 				<div id="cart_box" >
 					<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
