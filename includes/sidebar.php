@@ -68,6 +68,9 @@ $cart = new Cart([
 	});
 </script>
 
+<?php if(!empty($getuverificacardapio) && $getuverificacardapio == "false") 
+	return 
+?>
 <div class="theiaStickySidebar">
 	<div id="cart_box" >
 		<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
@@ -141,7 +144,6 @@ $cart = new Cart([
 				});
 			});
 		</script>
-		<?php if(!empty($getuverificacardapio) && $getuverificacardapio == "false"):?>
 		<form id="irpcarrinho" data-toggle="validator" action="<?=$site.$_POST['getloja'].'/';?>carrinho" method="post">
 			<hr />
 			<div class="row" id="options_2" style="padding-left: 12px;">
