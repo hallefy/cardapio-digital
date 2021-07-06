@@ -724,7 +724,11 @@ else:
 								endif;
 								?>		
 								
-								
+			
+		
+								<?php
+									if($confirm_just_cardapio == "false" && !empty($confirm_just_cardapio)){	
+								?>
 								<!--INICIO DA QUANTIDADE-->
 								<h5><?=$texto['msg_quantidade'];?></h5>							
 								<div class="input-group">
@@ -810,6 +814,9 @@ else:
 									<?php
 								endif;
 								?>
+							<?				
+						}
+						?>	
 								
 								<script type="text/javascript">
 								$(document).ready(function(){
