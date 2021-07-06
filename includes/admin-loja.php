@@ -438,6 +438,7 @@ endif;
 			<label for="confirm_mesa"><strong>Permitir pedido na mesa</strong></label>
 		</div>
 		<div class="icheck-material-green">
+			<label for="config_delivery">Ou</label>
 			<input <?=(!empty($confirm_just_cardapio) && $confirm_just_cardapio == "true" ? "checked" : "");?> type="checkbox" name="confirm_just_cardapio" value="true" id="confirm_just_cardapio" />
 			<label for="confirm_just_cardapio"><strong>Apenas cardapio online</strong></label>
 		</div>
