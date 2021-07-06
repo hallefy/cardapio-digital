@@ -155,10 +155,10 @@ $updatebanco = new Update();
 					$inputdadosempresa['confirm_mesa'] = "true";
 				else:
 					$inputdadosempresa['confirm_mesa'] = "false";
-				if(!empty($inputdadosempresa['confirm_just_cardapio'])):
-					$inputdadosempresa['confirm_just_cardapio'] = "true";
-				else:
-					$inputdadosempresa['confirm_just_cardapio'] = "false";
+				// if(!empty($inputdadosempresa['confirm_just_cardapio'])):
+				// 	$inputdadosempresa['confirm_just_cardapio'] = "true";
+				// else:
+				// 	$inputdadosempresa['confirm_just_cardapio'] = "false";
 				endif;	
 
 
