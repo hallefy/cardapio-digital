@@ -16,6 +16,7 @@ else:
 	$getuverificadelivery = $valorgetiduser[0]['confirm_delivery'];
 	$getuverificabalcao = $valorgetiduser[0]['confirm_balcao'];
 	$getuverificamesa = $valorgetiduser[0]['confirm_mesa'];
+	$getuverificacardapio = $valorgetiduser[0]['confirm_just_cardapio'];
 endif;
 
 
@@ -140,6 +141,7 @@ $cart = new Cart([
 				});
 			});
 		</script>
+		<?php if(!empty($getuverificacardapio) && $getuverificacardapio == "false"):?>
 		<form id="irpcarrinho" data-toggle="validator" action="<?=$site.$_POST['getloja'].'/';?>carrinho" method="post">
 			<hr />
 			<div class="row" id="options_2" style="padding-left: 12px;">
