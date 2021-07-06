@@ -870,7 +870,7 @@ endif;
 		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
 		?>
 			<script type="text/javascript">
-				document.getElementById("option-carrinho").style.display = "none";
+				document.getElementById("cart_box").style.display = 'none';
 			</script>
 		<?				
 		}
