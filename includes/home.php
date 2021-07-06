@@ -952,6 +952,8 @@ endif;
 			</script>
 			<form data-toggle="validator" action="<?=$site.$Url[0].'/';?>carrinho" method="post">
 				<hr>
+				<?php					
+					if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == "true"): ?>
 				<div class="row" id="options_2" style="padding-left: 12px;">
 					<?php					
 					if(!empty($confirm_delivery) && $confirm_delivery == "true"): ?>
