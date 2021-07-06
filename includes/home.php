@@ -867,13 +867,19 @@ endif;
 	<div class="col-md-3" id="sidebar">
 	
 	<?php
-	echo $confirm_balcao;
-	echo $confirm_delivery;
-	echo $confirm_mesa;
-	echo $confirm_just_cardapio;					
+		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
+		?>
+			<script language="javascript">
+			alert("Block carrinho");		
+
+				document.getElementById("option-carrinho").style.display = "none";
+			
+			</script>
+		<?				
+		}
 	?>	
 
-	<div class="theiaStickySidebar" style="display:none">
+	<div id="option-carrinho" class="theiaStickySidebar">
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
