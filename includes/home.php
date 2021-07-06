@@ -868,16 +868,6 @@ endif;
 
 
 	<div id="option-carrinho" class="theiaStickySidebar">
-	<?php
-		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
-		?>
-			<script type="text/javascript">
-			alert('Teste')
-				document.getElementById("cart_box").style.display = 'none';
-			</script>
-		<?				
-		}
-	?>	
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
@@ -1128,7 +1118,7 @@ endif;
 														x0p('Parabéns!', 
 															'Desconto aplicado!', 
 															'ok', false);
-														$('#sidebar').load('<?=$site;?>includes/sidebar.php', {"getloja" : "<?=$Url[0];?>"});
+														// $('#sidebar').load('<?=$site;?>includes/sidebar.php', {"getloja" : "<?=$Url[0];?>"});
 													}
 
 												}
@@ -1384,7 +1374,6 @@ endif;
 
 			}
 		});
-
 
 
 
