@@ -67,6 +67,7 @@ $cart = new Cart([
 		$('#sidebarlink').attr("href", linkurl3);
 	});
 </script>
+<div class="theiaStickySidebar">
 <?php
 		if(!empty($getuverificacardapio) && $getuverificacardapio == true){	
 		?>
@@ -77,8 +78,6 @@ $cart = new Cart([
 		<?				
 		}
 	?>	
-
-<div class="theiaStickySidebar">
 	<div id="cart_box" >
 		<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 		<?php
