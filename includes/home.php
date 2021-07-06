@@ -875,10 +875,10 @@ endif;
 <div class="col-md-3" id="sidebar">
 <?php 					
 	if(!empty($confirm_balcao) && $confirm_balcao == "true")
-		return
-		 ?>
+		return;
+?>
 
-	<div class="theiaStickySidebar">
+	<!-- <div class="theiaStickySidebar">
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
@@ -1188,7 +1188,8 @@ endif;
 			});
 		</script>
 
-	</div><!-- End col-md-3 -->
+	<!-- </div> -->
+	<!-- End col-md-3 -->
 
 </div><!-- End row -->
 
