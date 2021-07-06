@@ -865,14 +865,15 @@ endif;
 
 </div>
 	<div class="col-md-3" id="sidebar">
-		
-	<div class="theiaStickySidebar" style="display:none">
+	
 	<?php
 	echo $confirm_balcao;
 	echo $confirm_delivery;
 	echo $confirm_mesa;
 	echo $confirm_just_cardapio;					
-	?>
+	?>	
+
+	<div class="theiaStickySidebar" style="display:none">
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
