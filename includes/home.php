@@ -873,6 +873,10 @@ endif;
 
 
 <div class="col-md-3" id="sidebar">
+<?php 					
+	if(!empty($confirm_balcao) && $confirm_balcao == "true")
+		return
+		 ?>
 
 	<div class="theiaStickySidebar">
 		<div id="cart_box" >
