@@ -868,6 +868,16 @@ endif;
 
 
 	<div id="option-carrinho" class="theiaStickySidebar">
+	<?php
+		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
+		?>
+			<script type="text/javascript">
+				document.getElementById("cart_box").style.display = 'none';
+				alert('Teste')
+			</script>
+		<?				
+		}
+	?>	
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
@@ -1374,6 +1384,7 @@ endif;
 
 			}
 		});
+
 
 
 
