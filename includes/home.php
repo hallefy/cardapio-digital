@@ -868,7 +868,7 @@ else:
 		
 		<?php
 		echo "value" . $confirm_just_cardapio;
-			echo ($confirm_just_cardapio == true && !empty($confirm_just_cardapio));
+			echo ($confirm_just_cardapio == 'true' && !empty($confirm_just_cardapio));
 
 		if($confirm_just_cardapio == true && !empty($confirm_just_cardapio)){	
 			?>
