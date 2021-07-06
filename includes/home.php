@@ -867,7 +867,7 @@ else:
 		<div class="col-md-3" id="sidebar">
 		
 		<?php
-		echo "home" . $confirm_just_cardapio;
+		echo ($confirm_just_cardapio == true && !empty($confirm_just_cardapio));
 		if(true){	
 			?>
 			<div id="option-carrinho" class="theiaStickySidebar">
