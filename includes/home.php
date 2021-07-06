@@ -872,8 +872,8 @@ endif;
 		if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == true){	
 		?>
 			<script type="text/javascript">
+				alert('Teste' + $confirm_just_cardapio);
 				document.getElementById("cart_box").style.display = 'none';
-				alert('Teste')
 			</script>
 		<?				
 		}
