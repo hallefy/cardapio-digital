@@ -866,8 +866,7 @@ endif;
 </div>
 	<div class="col-md-3" id="sidebar">
 		
-	<?php if(!empty($confirm_just_cardapio) && $confirm_just_cardapio == "false"): ?>
-	<div class="theiaStickySidebar">
+	<div class="theiaStickySidebar" <?php if (!empty($getuverificacardapio) && $getuverificacardapio == "true"){?>style="display:none"<?php } ?>>
 		<div id="cart_box" >
 			<h3><?=$texto['msg_seu_pedido'];?> <i class="icon_cart_alt pull-right"></i></h3>					
 			<?php
