@@ -1,7 +1,6 @@
 version: "3"
 
 services:
-
   web:
     build:
       dockerfile: ./docker/dockerfilephp
@@ -9,13 +8,13 @@ services:
     ports:
       - "4500:80"
     volumes:
-      - ./app:/var/www/html
+      - ./app:/var/www/html/kardapio
 
   db:
-    image: 'mysql:5.7'
+    image: "mysql:5.7"
     volumes:
-    - ./.volume/mysql/:/var/lib/mysql
-    - ./app/banco de dados:/docker-entrypoint-initdb.d
+      - ./.volume/mysql/:/var/lib/mysql
+      - ./app/banco de dados:/docker-entrypoint-initdb.d
     container_name: mysql
     ports:
       - 3306:3306

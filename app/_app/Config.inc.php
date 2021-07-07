@@ -16,7 +16,7 @@ define("PHONE_NUMBER","62994297820"); //Telefone para chamarem no whats
 
 
 // DEFINE A BASE DO SITE ####################
-define('HOME', 'https://localhost:4500/cardapio-digital/');  // SEMPRE COM A BARRA NA FRENTE ---- ---- ---- ----
+define('HOME', 'http://localhost:4500/kardapio/');  // SEMPRE COM A BARRA NA FRENTE ---- ---- ---- ----
 
 date_default_timezone_set('America/Sao_Paulo');
 
